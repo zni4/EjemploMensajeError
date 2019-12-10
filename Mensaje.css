@@ -99,9 +99,9 @@
 .MensajeAviso .body .imagen_aviso
 {
  float: left;
- width: 64px;
- height: 64px;
- background-image: url('./MensajeAviso.png');
+ width: 72px;
+ height: 72px;
+ background-image: url('Warning.png');
 }
 
 .MensajeAviso .footer
