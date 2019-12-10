@@ -1,0 +1,141 @@
+﻿body
+{
+ font-family:Roboto;
+}
+
+.cabeceraPpal
+{
+ margin-left:10%;
+}
+
+.cabeceraPpal button
+{
+ padding: 6px 12px;
+ font-size: 14px;
+ font-weight: normal;
+ text-align: center;
+ border-radius: 4px;
+ border: 1px solid #E5E5E5;
+ background-color: #42aa4a;
+ color: #FFFFFF;
+ margin: 6px;
+ cursor: pointer;
+}
+
+.cabeceraPpal button:hover
+{
+ background-color: green;
+}
+
+.input_Text
+{
+ border-radius: 2px;
+ border: 1px solid #000000;
+ font-size: 14px;
+}
+
+.input_Text:invalid
+{
+ outline: none;
+ border: 1px solid red;
+ box-shadow: 0px 0px 8px red;
+ -moz-box-shadow: 0px 0px 8px red;
+ -webkit-box-shadow: 0px 0px 8px red;
+}
+
+.MensajeAviso
+{
+ font-family:Roboto;
+ background-color: #FFFFFF;
+ border-radius: 6px;
+ position: fixed;
+ top: 30%;
+ left: 40%;
+ z-index: 19001;
+ margin-top: -43px;
+ margin-left: -110px;
+ border: 1px solid #dddddd;
+ width: 400px;
+ height: 200px;
+}
+
+.MensajeAviso .cabecera
+{
+ padding: 10px;
+ border-bottom: 2px solid #47A447;
+}
+
+.MensajeAviso .cabecera button
+{
+ background: transparent;
+ border: 0;
+ float: right;
+ font-weight: bold;
+ line-height: 1;
+ color: #000000;
+ opacity: 0.4;
+ cursor: pointer;
+}
+
+.MensajeAviso .cabecera h4
+{
+ margin: 0;
+ font-size: 16px;
+}
+
+.MensajeAviso .body
+{
+ height: 95px;
+ border-bottom: 1px solid #E5E5E5;
+ padding: 10px;
+}
+
+.MensajeAviso .body p
+{
+ margin-left: 85px;
+ font-size: 12px;
+}
+
+.MensajeAviso .body .imagen_aviso
+{
+ float: left;
+ width: 64px;
+ height: 64px;
+ background-image: url('./MensajeAviso.png');
+}
+
+.MensajeAviso .footer
+{
+ text-align: right;
+}
+
+.MensajeAviso .footer button
+{
+ padding: 6px 12px;
+ font-size: 14px;
+ font-weight: normal;
+ text-align: center;
+ border-radius: 4px;
+ border: 1px solid #E5E5E5;
+ background-color: #428BCA;
+ color: #FFFFFF;
+ margin: 6px;
+ cursor: pointer;
+}
+
+.MensajeAviso .footer button:hover
+{
+ background-color: #3276B1;
+}
+
+.cargando_contenedor
+{
+ position: fixed;
+ left: 0;
+ right: 0;
+ top: 0;
+ bottom: 0;
+ background-color: #000;
+ opacity: 0.4;
+ z-index: 19000;
+}
