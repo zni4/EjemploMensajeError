@@ -23,6 +23,24 @@
 	background-color: green;
 }
 
+.cabeceraPpal .Botonrojo
+{
+    padding: 6px 12px;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+	border-radius: 4px;
+	border: 1px solid #e5e5e5;
+	background-color: #dc3e3e;
+	color: #ffffff;
+	margin: 6px;
+	cursor: pointer;
+}
+
+.cabeceraPpal .Botonrojo:hover {
+	background-color: red;
+}
+
 .input_Text {
 	border-radius: 2px;
 	border: 1px solid #000000;

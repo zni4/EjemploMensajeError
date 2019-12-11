@@ -1,4 +1,14 @@
-﻿function MostrarMensaje(textoMensaje) {
+﻿function Inicio() {
+    document.getElementById("TextoMensaje").focus();
+}
+
+function MostrarMensaje(textoMensaje) {
+
+    if (textoMensaje === undefined || textoMensaje === "") {
+        MostrarMensaje("Debe introducir un texto para el mensaje");
+        return;
+    }
+
 	var divModal = document.getElementById("Mensaje");
 
 	var pMensajeError =
@@ -33,4 +43,11 @@ function OcultarMensaje() {
 	if (divModal != null) {
 		mensaje.parentNode.removeChild(mensaje); //Elimina el mensaje
 	}
+
+	BorrarTextoMensaje();
+}
+
+function BorrarTextoMensaje() {
+    document.getElementById("TextoMensaje").value = "";
+    document.getElementById("TextoMensaje").focus();
 }
