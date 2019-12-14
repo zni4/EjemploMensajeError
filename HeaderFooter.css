@@ -1,0 +1,25 @@
+div .Header {
+	margin-left: 50px;
+	/*background-color: burlywood;*/
+	height: 100px;
+}
+
+div .Header h2 {
+	padding-top: 40px;
+	color: forestgreen;
+}
+
+div .Header img {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+div .Footer {
+	margin-left: 100px;
+	/*background-color: coral;*/
+}
+
+div .Footer h3 {
+	color: blue;
+}

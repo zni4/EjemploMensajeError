@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 
-<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+<link
+	href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+	rel="stylesheet"
+/>
 <link href="Mensaje.css" rel="stylesheet" />
 
 <script src="Mensaje.js"></script>
+<script src="Include.js"></script>
 
 <script>
-    window.onload = function () {
-        Inicio();
-    };
+	window.onload = function() {
+		Inicio();
+	};
 </script>
 
 <html lang="en">
@@ -21,11 +25,33 @@
 	</head>
 
 	<body>
+		<div include-html="Header.html"></div>
+
 		<div class="cabeceraPpal">
 			<h1>INTRODUZCA EL MENSAJE</h1>
-			<input type="text" id="TextoMensaje" class="input_Text" required="required"/>
-			<button onclick="MostrarMensaje(document.getElementById('TextoMensaje').value);">Mostrar Mensaje</button>
-            <button class="Botonrojo" onclick="BorrarTextoMensaje();">Borrar Mensaje</button>
+			<input
+				type="text"
+				id="TextoMensaje"
+				class="input_Text"
+				required="required"
+			/>
+			<button
+				onclick="MostrarMensaje(document.getElementById('TextoMensaje').value);"
+			>
+				Mostrar Mensaje
+			</button>
+			<button class="Botonrojo" onclick="BorrarTextoMensaje();">
+				Borrar Mensaje
+			</button>
+			<button class="Botonmorado" onclick="AbrirPagina();">
+				Abrir Página
+			</button>
 		</div>
+
+		<div include-html="Footer.html"></div>
 	</body>
 </html>
+
+<script>
+	includeHTML();
+</script>

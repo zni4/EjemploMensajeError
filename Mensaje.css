@@ -23,9 +23,8 @@
 	background-color: green;
 }
 
-.cabeceraPpal .Botonrojo
-{
-    padding: 6px 12px;
+.cabeceraPpal .Botonrojo {
+	padding: 6px 12px;
 	font-size: 14px;
 	font-weight: normal;
 	text-align: center;
@@ -39,6 +38,23 @@
 
 .cabeceraPpal .Botonrojo:hover {
 	background-color: red;
+}
+
+.cabeceraPpal .Botonmorado {
+	padding: 6px 12px;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+	border-radius: 4px;
+	border: 1px solid #e5e5e5;
+	background-color: #a851a8;
+	color: #ffffff;
+	margin: 6px;
+	cursor: pointer;
+}
+
+.cabeceraPpal .Botonmorado:hover {
+	background-color: purple;
 }
 
 .input_Text {

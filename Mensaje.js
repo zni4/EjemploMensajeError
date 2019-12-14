@@ -1,13 +1,12 @@
 ﻿function Inicio() {
-    document.getElementById("TextoMensaje").focus();
+	document.getElementById("TextoMensaje").focus();
 }
 
 function MostrarMensaje(textoMensaje) {
-
-    if (textoMensaje === undefined || textoMensaje === "") {
-        MostrarMensaje("Debe introducir un texto para el mensaje");
-        return;
-    }
+	if (textoMensaje === undefined || textoMensaje === "") {
+		MostrarMensaje("Debe introducir un texto para el mensaje");
+		return;
+	}
 
 	var divModal = document.getElementById("Mensaje");
 
@@ -48,6 +47,10 @@ function OcultarMensaje() {
 }
 
 function BorrarTextoMensaje() {
-    document.getElementById("TextoMensaje").value = "";
-    document.getElementById("TextoMensaje").focus();
+	document.getElementById("TextoMensaje").value = "";
+	document.getElementById("TextoMensaje").focus();
+}
+
+function AbrirPagina() {
+	location.href = "./NuevaPagina.html";
 }
