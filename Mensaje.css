@@ -6,7 +6,7 @@
 	margin-left: 10%;
 }
 
-.cabeceraPpal button {
+.cabeceraPpal .Botonverde {
 	padding: 6px 12px;
 	font-size: 14px;
 	font-weight: normal;
@@ -19,7 +19,7 @@
 	cursor: pointer;
 }
 
-.cabeceraPpal button:hover {
+.cabeceraPpal .Botonverde:hover {
 	background-color: green;
 }
 
