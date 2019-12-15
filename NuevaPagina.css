@@ -11,7 +11,7 @@
 	margin-right: -1em;
 	padding-right: 1em;
 	position: relative;
-	background-color: #5f5a5a;
+	background-color: #837d7d;
 }
 
 .contenedor:before {
@@ -28,7 +28,7 @@
 	width: 1em;
 	height: 1em;
 	margin-top: 0.2em;
-	background-color: #5f5a5a;
+	background-color: #837d7d;
 }
 
 .contenedor:hover {
@@ -38,8 +38,8 @@
 	max-height: 36em; /*30 lineas*/
 	width: 300px;
 	margin-left: 100px;
-	box-shadow: black 3px 3px;
-	background-color: #5f5a5a;
+	box-shadow: black 5px 5px 10px;
+	background-color: #837d7d;
 	color: white;
 	overflow: hidden;
 	text-overflow: ellipsis;
