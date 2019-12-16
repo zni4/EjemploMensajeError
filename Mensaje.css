@@ -17,6 +17,7 @@
 	color: #ffffff;
 	margin: 6px;
 	cursor: pointer;
+	outline: none;
 }
 
 .cabeceraPpal .Botonverde:hover {
@@ -34,6 +35,7 @@
 	color: #ffffff;
 	margin: 6px;
 	cursor: pointer;
+	outline: none;
 }
 
 .cabeceraPpal .Botonrojo:hover {
@@ -51,6 +53,7 @@
 	color: #ffffff;
 	margin: 6px;
 	cursor: pointer;
+	outline: none;
 }
 
 .cabeceraPpal .Botonmorado:hover {

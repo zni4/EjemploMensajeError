@@ -12,3 +12,21 @@ function Mostrar(identidad, identidadBoton) {
 		document.getElementById(identidadBoton).textContent = "-";
 	}
 }
+
+function MostrarTodos() {
+	var elmnt = document.getElementsByClassName("contenedor");
+	var i;
+	for (i = 0; i < elmnt.length; i++) {
+		elmnt[i].classList.add("mostrar");
+		elmnt[i].firstElementChild.textContent = "-";
+	}
+}
+
+function OcultarTodos() {
+	var elmnt = document.getElementsByClassName("contenedor");
+	var i;
+	for (i = 0; i < elmnt.length; i++) {
+		elmnt[i].classList.remove("mostrar");
+		elmnt[i].firstElementChild.textContent = "+";
+	}
+}
