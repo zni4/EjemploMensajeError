@@ -5,6 +5,7 @@
 	max-height: 1.2em;
 	width: 300px;
 	margin-left: 100px;
+	margin-bottom: 5px;
 	overflow: hidden;
 	text-overflow: clip;
 	text-align: justify;
@@ -38,7 +39,7 @@
 	max-height: 36em; /*30 lineas*/
 	width: 300px;
 	margin-left: 100px;
-	box-shadow: black 3px 3px;
+	box-shadow: black 3px 3px 4px;
 	background-color: #837e7e;
 	color: white;
 	overflow: hidden;
