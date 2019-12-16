@@ -46,11 +46,12 @@
 	font-size: small;
 }
 
-.mas {
+.Botonmas {
 	background-color: #837e7e;
 	border: none;
+	outline: none;
 }
 
-.mas:hover {
+.Botonmas:hover {
 	cursor: pointer;
 }
