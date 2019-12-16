@@ -50,8 +50,21 @@
 	background-color: #837e7e;
 	border: none;
 	outline: none;
+	font-weight: bold;
 }
 
 .Botonmas:hover {
+	cursor: pointer;
+}
+
+.mostrar .Botonmas {
+	background-color: #837e7e;
+	border: none;
+	outline: none;
+	font-weight: bold;
+	color: white;
+}
+
+.mostrar .Botonmas:hover {
 	cursor: pointer;
 }
