@@ -69,3 +69,55 @@
 .mostrar .Botonmas:hover {
 	cursor: pointer;
 }
+
+.nivel2 {
+	margin-left: 120px;
+	background-color: #c46d6d;
+}
+
+.nivel2:before {
+	content: "...";
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.nivel2:after {
+	content: "";
+	position: absolute;
+	right: 0;
+	width: 1em;
+	height: 1em;
+	margin-top: 0.2em;
+	background-color: #c46d6d;
+}
+
+.mostrar .nivel2 {
+	background-color: #c46d6d;
+}
+
+.nivel3 {
+	margin-left: 140px;
+	background-color: #7a6dc4;
+}
+
+.nivel3:before {
+	content: "...";
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.nivel3:after {
+	content: "";
+	position: absolute;
+	right: 0;
+	width: 1em;
+	height: 1em;
+	margin-top: 0.2em;
+	background-color: #7a6dc4;
+}
+
+.mostrar .nivel3 {
+	background-color: #7a6dc4;
+}
