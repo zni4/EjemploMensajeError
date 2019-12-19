@@ -28,13 +28,13 @@ function Mostrar(identidad, identidadBoton) {
 		if (document.getElementById(identidad)) {
 			if (
 				document.getElementById(identidad).classList.contains("mostrar") &&
-				mostrarOcultar == "-"
+				mostrarOcultar.includes("-")
 			) {
 				//contrae el texto si está expandido y lo expande en caso contrario
 				document.getElementById(identidad).classList.remove("mostrar");
 				document.getElementById(identidadBoton).textContent = "+";
 			} else {
-				if (mostrarOcultar == "+") {
+				if (mostrarOcultar.includes("+")) {
 					document.getElementById(identidad).classList.add("mostrar");
 					document.getElementById(identidadBoton).textContent = "-";
 				}
