@@ -14,33 +14,34 @@ function Mostrar(identidad, identidadBoton) {
 		document.getElementById(identidadBoton).textContent = "-";
 	}
 
-	var identidadInicial = identidad.substring(0, 4);
-	var identidadBotonInicial = identidadBoton.substring(0, 4);
+    //Los campos del arbol se definen div'#nivelppal'niv'#subnivel'-'#orden dentro del nivel'
+    var nivelPpal = Number(identidad.substring(identidad.indexOf("div") + 3, identidad.indexOf("niv")));
+    var subnivel = Number(identidad.substring(identidad.indexOf("niv") + 3, identidad.indexOf("-")));
+    var orden = Number(identidad.substring(identidad.indexOf("-") + 1, identidad.length));
 
-	var nivelInicial = Number(
-		identidad.substring(identidad.length - 1, identidad.length)
-	);
+	
+    for (let i = subnivel; i < 10; i++) {
+        for (let j = orden; j < 10; j++) {
+            identidad = "div" + nivelPpal + "niv" + i + "-" + j;
+            identidadBoton = "mas" + nivelPpal + "niv" + i + "-" + j;
 
-	for (let i = nivelInicial + 1; i < 10; i++) {
-		identidad = identidadInicial + "niv" + i;
-		identidadBoton = identidadBotonInicial + "niv" + i;
-
-		if (document.getElementById(identidad)) {
-			if (
-				document.getElementById(identidad).classList.contains("mostrar") &&
-				mostrarOcultar.includes("-")
-			) {
-				//contrae el texto si está expandido y lo expande en caso contrario
-				document.getElementById(identidad).classList.remove("mostrar");
-				document.getElementById(identidadBoton).textContent = "+";
-			} else {
-				if (mostrarOcultar.includes("+")) {
-					document.getElementById(identidad).classList.add("mostrar");
-					document.getElementById(identidadBoton).textContent = "-";
-				}
-			}
-		}
-	}
+            if (document.getElementById(identidad)) {
+                if (
+                    document.getElementById(identidad).classList.contains("mostrar") &&
+                    mostrarOcultar.indexOf("-") != -1
+                ) {
+                    //contrae el texto si está expandido y lo expande en caso contrario
+                    document.getElementById(identidad).classList.remove("mostrar");
+                    document.getElementById(identidadBoton).textContent = "+";
+                } else {
+                    if (mostrarOcultar.indexOf("+") != -1) {
+                        document.getElementById(identidad).classList.add("mostrar");
+                        document.getElementById(identidadBoton).textContent = "-";
+                    }
+                }
+            }
+        }
+    }
 }
 
 function MostrarTodos() {

@@ -121,3 +121,13 @@
 .mostrar .nivel3 {
 	background-color: #7a6dc4;
 }
+
+b {
+    font-size: medium;
+    color: green;
+}
+
+.mostrar b {
+    font-size: medium;
+    color: red;
+}
