@@ -84,9 +84,10 @@
 	z-index: 19001;
 	margin-top: -43px;
 	margin-left: -110px;
-	border: 1px solid #dddddd;
+	border: 1px solid black;
 	width: 400px;
 	height: 200px;
+	box-shadow: 1px 1px black;
 }
 
 .MensajeAviso .cabecera {
