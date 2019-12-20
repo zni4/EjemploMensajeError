@@ -123,11 +123,11 @@
 }
 
 b {
-    font-size: medium;
-    color: green;
+	font-size: medium;
+	color: green;
 }
 
 .mostrar b {
-    font-size: medium;
-    color: red;
+	font-size: medium;
+	color: red;
 }
