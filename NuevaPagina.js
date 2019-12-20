@@ -3,6 +3,9 @@ function Volver() {
 }
 
 function Mostrar(identidad, identidadBoton) {
+	var maximoSubnivel = 10;
+	var maximoOrden = 10;
+
 	var mostrarOcultar = document.getElementById(identidadBoton).textContent; //si vale + es que estoy mostrando, si vale - estoy ocultando
 
 	if (document.getElementById(identidad).classList.contains("mostrar")) {
@@ -25,8 +28,8 @@ function Mostrar(identidad, identidadBoton) {
 		identidad.substring(identidad.indexOf("-") + 1, identidad.length)
 	);
 
-	for (let i = subnivel; i < 10; i++) {
-		for (let j = orden; j < 10; j++) {
+	for (let i = subnivel; i < maximoSubnivel; i++) {
+		for (let j = orden; j < maximoOrden; j++) {
 			identidad = "div" + nivelPpal + "niv" + i + "-" + j;
 			identidadBoton = "mas" + nivelPpal + "niv" + i + "-" + j;
 
