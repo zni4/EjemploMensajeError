@@ -1,10 +1,10 @@
-.contenedor {
+.nivel1 {
 	border: 1px solid black;
 	border-radius: 5px;
-	line-height: 1.2em;
-	max-height: 1.2em;
+	line-height: 1.5em;
+	max-height: 1.5em;
 	width: 300px;
-	margin-left: 100px;
+	margin-left: 10px;
 	margin-bottom: 5px;
 	overflow: hidden;
 	text-overflow: clip;
@@ -13,121 +13,103 @@
 	padding-right: 1em;
 	position: relative;
 	background-color: #837e7e;
+	font-size: small;
 }
 
-.contenedor:before {
-	content: "...";
-	position: absolute;
-	right: 0;
-	bottom: 0;
+.nivel2 {
+	border: 1px solid black;
+	border-radius: 5px;
+	line-height: 1.5em;
+	max-height: 1.5em;
+	width: 280px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	text-overflow: clip;
+	text-align: justify;
+	margin-right: -1em;
+	padding-right: 1em;
+	position: relative;
+	background-color: #c46d6d;
+	font-size: small;
 }
 
-.contenedor:after {
-	content: "";
-	position: absolute;
-	right: 0;
-	width: 1em;
-	height: 1em;
-	margin-top: 0.2em;
-	background-color: #837e7e;
+.nivel3 {
+	border: 1px solid black;
+	border-radius: 5px;
+	line-height: 1.5em;
+	max-height: 1.5em;
+	width: 260px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	text-overflow: clip;
+	text-align: justify;
+	margin-right: -1em;
+	padding-right: 1em;
+	position: relative;
+	background-color: #7a6dc4;
+	font-size: small;
+}
+
+.nivel4 {
+	border: 1px solid black;
+	border-radius: 5px;
+	line-height: 1.5em;
+	max-height: 1.5em;
+	width: 240px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	text-overflow: clip;
+	text-align: justify;
+	margin-right: -1em;
+	padding-right: 1em;
+	position: relative;
+	background-color: #6dc48e;
+	font-size: small;
 }
 
 .mostrar {
 	border: 1px solid black;
 	border-radius: 5px;
-	line-height: 1.2em;
+	line-height: 1.5em;
 	max-height: 36em; /*30 lineas*/
-	width: 600px;
-	margin-left: 100px;
+	margin-left: 10px;
 	box-shadow: black 3px 3px 4px;
-	background-color: #837e7e;
 	color: white;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	font-size: small;
-}
-
-.Botonmas {
-	background-color: #837e7e;
-	border: none;
-	outline: none;
-	font-weight: bold;
-}
-
-.Botonmas:hover {
-	cursor: pointer;
-}
-
-.mostrar .Botonmas {
-	background-color: #837e7e;
-	border: none;
-	outline: none;
-	font-weight: bold;
-	color: white;
-}
-
-.mostrar .Botonmas:hover {
-	cursor: pointer;
-}
-
-.nivel2 {
-	margin-left: 120px;
-	background-color: #c46d6d;
-}
-
-.nivel2:before {
-	content: "...";
-	position: absolute;
-	right: 0;
-	bottom: 0;
-}
-
-.nivel2:after {
-	content: "";
-	position: absolute;
-	right: 0;
-	width: 1em;
-	height: 1em;
-	margin-top: 0.2em;
-	background-color: #c46d6d;
-}
-
-.mostrar .nivel2 {
-	background-color: #c46d6d;
-}
-
-.nivel3 {
-	margin-left: 140px;
-	background-color: #7a6dc4;
-}
-
-.nivel3:before {
-	content: "...";
-	position: absolute;
-	right: 0;
-	bottom: 0;
-}
-
-.nivel3:after {
-	content: "";
-	position: absolute;
-	right: 0;
-	width: 1em;
-	height: 1em;
-	margin-top: 0.2em;
-	background-color: #7a6dc4;
-}
-
-.mostrar .nivel3 {
-	background-color: #7a6dc4;
 }
 
 b {
-	font-size: medium;
 	color: green;
 }
 
 .mostrar b {
-	font-size: medium;
 	color: red;
+}
+
+.botonmas {
+	font-weight: bold;
+}
+
+.nivel1 .botonmas {
+	background-color: #837e7e;
+	border: none;
+}
+
+.nivel2 .botonmas {
+	background-color: #c46d6d;
+	border: none;
+}
+
+.nivel3 .botonmas {
+	background-color: #7a6dc4;
+	border: none;
+}
+
+.nivel4 .botonmas {
+	background-color: #6dc48e;
+	border: none;
 }
