@@ -21,7 +21,15 @@ function MostrarTodos() {
 		var i;
 		for (i = 0; i < elmnt.length; i++) {
 			elmnt[i].classList.add("mostrar");
-			elmnt[i].firstElementChild.textContent = "-";
+
+			if (
+				document.querySelector(".nivel" + nivel).children[2] //Existe un subnivel
+			) {
+				elmnt[i].firstElementChild.textContent = "-";
+			} else {
+				//No existe subnivel
+				elmnt[i].firstElementChild.textContent = "";
+			}
 		}
 	}
 }
