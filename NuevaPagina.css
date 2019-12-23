@@ -1,115 +1,141 @@
 .nivel1 {
-	border: 1px solid black;
-	border-radius: 5px;
+	/*border: 1px solid black;
+	border-radius: 5px;*/
 	line-height: 1.5em;
 	max-height: 1.5em;
 	width: 300px;
-	margin-left: 10px;
-	margin-bottom: 5px;
+	margin-left: 20px;
+	/*margin-bottom: 5px;*/
 	overflow: hidden;
 	text-overflow: clip;
-	text-align: justify;
+	text-align: left;
 	margin-right: -1em;
 	padding-right: 1em;
 	position: relative;
-	background-color: #837e7e;
+	/*background-color: #837e7e;*/
 	font-size: small;
 }
 
 .nivel2 {
-	border: 1px solid black;
-	border-radius: 5px;
+	/*border: 1px solid black;
+	border-radius: 5px;*/
 	line-height: 1.5em;
 	max-height: 1.5em;
 	width: 280px;
-	margin-left: 10px;
-	margin-bottom: 5px;
+	margin-left: 20px;
+	/*margin-bottom: 5px;*/
 	overflow: hidden;
 	text-overflow: clip;
-	text-align: justify;
+	text-align: left;
 	margin-right: -1em;
 	padding-right: 1em;
 	position: relative;
-	background-color: #c46d6d;
+	/*background-color: #c46d6d;*/
 	font-size: small;
 }
 
 .nivel3 {
-	border: 1px solid black;
-	border-radius: 5px;
+	/*border: 1px solid black;
+	border-radius: 5px;*/
 	line-height: 1.5em;
 	max-height: 1.5em;
 	width: 260px;
-	margin-left: 10px;
-	margin-bottom: 5px;
+	margin-left: 20px;
+	/*margin-bottom: 5px;*/
 	overflow: hidden;
 	text-overflow: clip;
-	text-align: justify;
+	text-align: left;
 	margin-right: -1em;
 	padding-right: 1em;
 	position: relative;
-	background-color: #7a6dc4;
+	/*background-color: #7a6dc4;*/
 	font-size: small;
 }
 
 .nivel4 {
-	border: 1px solid black;
-	border-radius: 5px;
+	/*border: 1px solid black;
+	border-radius: 5px;*/
 	line-height: 1.5em;
 	max-height: 1.5em;
 	width: 240px;
-	margin-left: 10px;
-	margin-bottom: 5px;
+	margin-left: 20px;
+	/*margin-bottom: 5px;*/
 	overflow: hidden;
 	text-overflow: clip;
-	text-align: justify;
+	text-align: left;
 	margin-right: -1em;
 	padding-right: 1em;
 	position: relative;
-	background-color: #6dc48e;
+	/*background-color: #6dc48e;*/
+	font-size: small;
+}
+
+.nivel5 {
+	/*border: 1px solid black;
+	border-radius: 5px;*/
+	line-height: 1.5em;
+	max-height: 1.5em;
+	width: 220px;
+	margin-left: 20px;
+	/*margin-bottom: 5px;*/
+	overflow: hidden;
+	text-overflow: clip;
+	text-align: left;
+	margin-right: -1em;
+	padding-right: 1em;
+	position: relative;
+	/*background-color: #b4c46d;*/
 	font-size: small;
 }
 
 .mostrar {
-	border: 1px solid black;
-	border-radius: 5px;
+	/*border: 1px solid black;
+	border-radius: 5px;*/
 	line-height: 1.5em;
 	max-height: 36em; /*30 lineas*/
-	margin-left: 10px;
-	box-shadow: black 3px 3px 4px;
-	color: white;
+	margin-left: 20px;
+	/*box-shadow: black 3px 3px 4px;*/
+	color: black; /* white;*/
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
 
 b {
-	color: green;
+	color: black;
 }
 
-.mostrar b {
+/*.mostrar b {
 	color: red;
-}
+}*/
 
 .botonmas {
 	font-weight: bold;
+	font-size: small;
+	border: none;
+	background: none;
+	width: 1.5em;
+	height: 1.5em;
+	/*border: solid 1px black;
+	text-align: center;
+	margin-bottom: 5px;*/
 }
 
-.nivel1 .botonmas {
+/*.nivel1 .botonmas {
 	background-color: #837e7e;
-	border: none;
 }
 
 .nivel2 .botonmas {
 	background-color: #c46d6d;
-	border: none;
 }
 
 .nivel3 .botonmas {
 	background-color: #7a6dc4;
-	border: none;
 }
 
 .nivel4 .botonmas {
 	background-color: #6dc48e;
-	border: none;
 }
+
+.nivel5 .botonmas {
+	background-color: #b4c46d;
+}*/
