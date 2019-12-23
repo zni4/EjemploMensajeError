@@ -2,6 +2,11 @@ function Volver() {
 	location.href = "./Mensaje.html";
 }
 
+function definirBotones() {
+	MostrarTodos();
+	OcultarTodos();
+}
+
 function Mostrar(identidad, identidadBoton) {
 	if (document.getElementById(identidad).classList.contains("mostrar")) {
 		//contrae el texto si está expandido y lo expande en caso contrario
@@ -23,7 +28,7 @@ function MostrarTodos() {
 			elmnt[i].classList.add("mostrar");
 
 			if (
-				document.querySelector(".nivel" + nivel).children[2] //Existe un subnivel
+				document.querySelector("#" + elmnt[i].id).children[2] //Existe un subnivel
 			) {
 				elmnt[i].firstElementChild.textContent = "-";
 			} else {
@@ -35,12 +40,20 @@ function MostrarTodos() {
 }
 
 function OcultarTodos() {
-	for (nivel = 1; nivel <= nivelMaximo; nivel++) {
+	for (nivel = nivelMaximo; nivel >= 1; nivel--) {
 		var elmnt = document.getElementsByClassName("nivel" + nivel);
 		var i;
 		for (i = 0; i < elmnt.length; i++) {
 			elmnt[i].classList.remove("mostrar");
-			elmnt[i].firstElementChild.textContent = "+";
+
+			if (
+				document.querySelector("#" + elmnt[i].id).children[2] //Existe un subnivel
+			) {
+				elmnt[i].firstElementChild.textContent = "+";
+			} else {
+				//No existe subnivel
+				elmnt[i].firstElementChild.textContent = "";
+			}
 		}
 	}
 }
