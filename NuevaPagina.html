@@ -26,12 +26,35 @@
 			<h1>NUEVA PÁGINA</h1>
 
 			<div>
-				<button class="Botonverde" onclick="MostrarTodos();">
+				<button class="Botonverde" onclick="MostrarTodos(10);">
 					Expandir Todo
 				</button>
-				<button class="Botonrojo" onclick="OcultarTodos();">
+				<button
+					class="Botonrojo"
+					onclick="document.getElementById('nivelSeleccionado').value = 0;OcultarTodos(10);"
+				>
 					Colapsar Todo
 				</button>
+
+				<b>Expandir hasta:</b>
+				<select
+					id="nivelSeleccionado"
+					name="Nivel"
+					class="Dropdown"
+					onchange="OcultarTodos(10);MostrarTodos(this.value);"
+				>
+					<option value="0">Ninguno</option>
+					<option value="1">Nivel 1</option>
+					<option value="2">Nivel 2</option>
+					<option value="3">Nivel 3</option>
+					<option value="4">Nivel 4</option>
+					<option value="5">Nivel 5</option>
+					<option value="6">Nivel 6</option>
+					<option value="7">Nivel 7</option>
+					<option value="8">Nivel 8</option>
+					<option value="9">Nivel 9</option>
+					<option value="10">Nivel 10</option>
+				</select>
 			</div>
 
 			<div class="nivel1" id="div1niv1-1">
@@ -40,7 +63,7 @@
 					id="mas1niv1-1"
 					onclick="Mostrar('div1niv1-1','mas1niv1-1');"
 				></button>
-				<b>1.</b> Titulo 1
+				<b>1.</b> Título 1
 
 				<div class="nivel2" id="div1niv2-1">
 					<button
@@ -48,7 +71,7 @@
 						id="mas1niv2-1"
 						onclick="Mostrar('div1niv2-1','mas1niv2-1');"
 					></button>
-					<b>1.1.</b> Titulo 1.1
+					<b>1.1.</b> Título 1.1
 				</div>
 			</div>
 
@@ -58,7 +81,7 @@
 					id="mas2niv1-1"
 					onclick="Mostrar('div2niv1-1','mas2niv1-1');"
 				></button>
-				<b>2.</b> Titulo 2
+				<b>2.</b> Título 2
 
 				<div class="nivel2" id="div2niv2-1">
 					<button
@@ -66,7 +89,7 @@
 						id="mas2niv2-1"
 						onclick="Mostrar('div2niv2-1','mas2niv2-1');"
 					></button>
-					<b>2.1.</b> Titulo 2.1
+					<b>2.1.</b> Título 2.1
 
 					<div class="nivel3" id="div2niv3-1">
 						<button
@@ -74,7 +97,7 @@
 							id="mas2niv3-1"
 							onclick="Mostrar('div2niv3-1','mas2niv3-1');"
 						></button>
-						<b>2.1.1.</b> Titulo 2.1.1
+						<b>2.1.1.</b> Título 2.1.1
 
 						<div class="nivel4" id="div2niv4-1">
 							<button
@@ -82,7 +105,7 @@
 								id="mas2niv4-1"
 								onclick="Mostrar('div2niv4-1','mas2niv4-1');"
 							></button>
-							<b>2.1.1.1.</b> Titulo 2.1.1.1
+							<b>2.1.1.1.</b> Título 2.1.1.1
 						</div>
 
 						<div class="nivel4" id="div2niv4-2">
@@ -91,7 +114,7 @@
 								id="mas2niv4-2"
 								onclick="Mostrar('div2niv4-2','mas2niv4-2');"
 							></button>
-							<b>2.1.1.2.</b> Titulo 2.1.1.2
+							<b>2.1.1.2.</b> Título 2.1.1.2
 
 							<div class="nivel5" id="div2niv5-1">
 								<button
@@ -99,18 +122,18 @@
 									id="mas2niv5-1"
 									onclick="Mostrar('div2niv5-1','mas2niv5-1');"
 								></button>
-								<b>2.1.1.2.1.</b> Titulo 2.1.1.2.1
+								<b>2.1.1.2.1.</b> Título 2.1.1.2.1
 							</div>
 						</div>
 					</div>
 
-					<div cla="nivel3" id="div2niv3-2">
+					<div class="nivel3" id="div2niv3-2">
 						<button
 							class="botonmas"
 							id="mas2niv3-2"
 							onclick="Mostrar('div2niv3-2','mas2niv3-2');"
 						></button>
-						<b>2.1.2.</b> Titulo 2.1.2
+						<b>2.1.2.</b> Título 2.1.2
 					</div>
 				</div>
 
@@ -120,7 +143,7 @@
 						id="mas2niv2-2"
 						onclick="Mostrar('div2niv2-2','mas2niv2-2');"
 					></button>
-					<b>2.2.</b> Titulo 2.2
+					<b>2.2.</b> Título 2.2
 				</div>
 
 				<div class="nivel2" id="div2niv2-3">
@@ -129,7 +152,7 @@
 						id="mas2niv2-3"
 						onclick="Mostrar('div2niv2-3','mas2niv2-3');"
 					></button>
-					<b>2.3.</b> Titulo 2.3
+					<b>2.3.</b> Título 2.3
 				</div>
 			</div>
 
@@ -139,7 +162,7 @@
 					id="mas3niv1-1"
 					onclick="Mostrar('div3niv1-1','mas3niv1-1');"
 				></button>
-				<b>3.</b> Titulo 3
+				<b>3.</b> Título 3
 			</div>
 
 			<button class="Botonmorado" onclick="Volver();">
