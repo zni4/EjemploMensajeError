@@ -59,6 +59,23 @@
 .cabeceraPpal .Botonmorado:hover {
 	background-color: purple;
 }
+.cabeceraPpal .Botonazul {
+	padding: 6px 12px;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid #e5e5e5;
+	background-color: #5161a8;
+	color: #ffffff;
+	margin: 6px;
+	cursor: pointer;
+	outline: none;
+}
+
+.cabeceraPpal .Botonazul:hover {
+	background-color: blue;
+}
 
 .input_Text {
 	border-radius: 5px;

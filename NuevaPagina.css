@@ -88,6 +88,24 @@
 	/*font-size: small;*/
 }
 
+.nivel6 {
+	/*border: 1px solid black;
+	border-radius: 5px;*/
+	line-height: 1.5em;
+	max-height: 1.5em;
+	width: 200px;
+	margin-left: 20px;
+	/*margin-bottom: 5px;*/
+	overflow: hidden;
+	text-overflow: clip;
+	text-align: left;
+	margin-right: -1em;
+	padding-right: 1em;
+	position: relative;
+	/*background-color: #b4c46d;*/
+	/*font-size: small;*/
+}
+
 .mostrar {
 	/*border: 1px solid black;
 	border-radius: 5px;*/
@@ -102,7 +120,7 @@
 
 b {
 	color: black;
-	font-size: 14px;
+	/*font-size: 14px;*/
 }
 
 /*.mostrar b {
@@ -119,6 +137,9 @@ b {
 	outline: none;
 	background-color: lightgray;
 	border-radius: 5px;
+	padding-left: 0.4em;
+	padding-top: 0em;
+	cursor: pointer;
 	/*border: solid 1px black;
 	text-align: center;
 	margin-bottom: 5px;*/

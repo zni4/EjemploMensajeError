@@ -1,13 +1,21 @@
+var maxNivel = 6 + 1; //el nivel máximo es el 6, se suma 1 para que no aparezca botón en ese nivel
+
 function Volver() {
 	location.href = "./Mensaje.html";
 }
 
 function definirBotones() {
-	MostrarTodos(10);
-	OcultarTodos(10);
+	MostrarTodos(maxNivel);
+	OcultarTodos(maxNivel);
+	document.getElementById("nivelSeleccionado").value = 1;
 }
 
 function Mostrar(identidad, identidadBoton) {
+	var numNivel = identidad.substring(
+		identidad.indexOf("-") - 1,
+		identidad.indexOf("-")
+	);
+
 	if (document.getElementById(identidadBoton).textContent != "") {
 		if (document.getElementById(identidad).classList.contains("mostrar")) {
 			//contrae el texto si está expandido y lo expande en caso contrario
@@ -21,12 +29,12 @@ function Mostrar(identidad, identidadBoton) {
 }
 
 function MostrarTodos(nivelMaximo) {
-	if (nivelMaximo == 10) {
-		document.getElementById("nivelSeleccionado").value = 10;
+	if (nivelMaximo == maxNivel) {
+		document.getElementById("nivelSeleccionado").value = maxNivel - 1;
 	}
 
 	if (nivelMaximo > 0) {
-		for (nivel = 1; nivel <= nivelMaximo; nivel++) {
+		for (nivel = 1; nivel <= nivelMaximo - 1; nivel++) {
 			var elmnt = document.getElementsByClassName("nivel" + nivel);
 			var i;
 			for (i = 0; i < elmnt.length; i++) {
@@ -47,11 +55,7 @@ function MostrarTodos(nivelMaximo) {
 }
 
 function OcultarTodos(nivelMaximo) {
-	// if (nivelMaximo == 10) {
-	// 	document.getElementById("nivelSeleccionado").value = 0;
-	// }
-
-	for (nivel = nivelMaximo; nivel >= 1; nivel--) {
+	for (nivel = nivelMaximo - 1; nivel >= 1; nivel--) {
 		var elmnt = document.getElementsByClassName("nivel" + nivel);
 		var i;
 		for (i = 0; i < elmnt.length; i++) {
