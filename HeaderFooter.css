@@ -15,6 +15,13 @@ div .Header img {
 	float: left;
 }
 
+div .Header .icono {
+	width: 10px;
+	height: 10px;
+	float: left;
+	margin-right: 10px;
+}
+
 div .Footer {
 	margin-left: 100px;
 	/*background-color: coral;*/
@@ -22,4 +29,22 @@ div .Footer {
 
 div .Footer h3 {
 	color: blue;
+}
+
+.Botoncabecera {
+	padding: 6px 12px;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid #e5e5e5;
+	background-color: #615261;
+	color: #ffffff;
+	margin: 6px;
+	cursor: pointer;
+	outline: none;
+}
+
+.Botoncabecera:hover {
+	background-color: black;
 }

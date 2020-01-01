@@ -52,5 +52,6 @@ function BorrarTextoMensaje() {
 }
 
 function AbrirPagina() {
+	sessionStorage.setItem("VentanaLlamante", "Mensaje.html");
 	location.href = "./NuevaPagina.html";
 }
