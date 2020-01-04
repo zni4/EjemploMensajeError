@@ -1,5 +1,6 @@
 ﻿function Inicio() {
 	document.getElementById("TextoMensaje").focus();
+	document.getElementById("Menu1").classList.add("seleccionado");
 }
 
 function MostrarMensaje(textoMensaje) {

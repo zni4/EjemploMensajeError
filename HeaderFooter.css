@@ -77,3 +77,8 @@ div .Footer h3 {
 	border: solid 1px black;
 	cursor: pointer;
 }
+
+.menu .seleccionado {
+	background-color: red;
+	border: solid 1px red;
+}

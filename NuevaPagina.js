@@ -1,5 +1,9 @@
 var maxNivel = 6 + 1; //el nivel máximo es el 6, se suma 1 para que no aparezca botón en ese nivel
 
+function InicioNuevaPagina() {
+	document.getElementById("Menu2").classList.add("seleccionado");
+}
+
 function Volver() {
 	location.href = "./" + sessionStorage.getItem("VentanaLlamante");
 }
