@@ -1,5 +1,6 @@
 div .Header {
 	margin-left: 50px;
+	margin-bottom: 5px;
 	/*background-color: burlywood;*/
 	height: 100px;
 }
@@ -15,7 +16,7 @@ div .Header img {
 	float: left;
 }
 
-div .Header .icono {
+.icono {
 	width: 10px;
 	height: 10px;
 	float: left;
@@ -37,14 +38,42 @@ div .Footer h3 {
 	font-weight: normal;
 	text-align: center;
 	border-radius: 5px;
-	border: 1px solid #e5e5e5;
-	background-color: #615261;
+	border: solid 1px black;
+	background-color: #333333;
 	color: #ffffff;
-	margin: 6px;
+	margin-left: 6px;
 	cursor: pointer;
 	outline: none;
 }
 
 .Botoncabecera:hover {
-	background-color: black;
+	background-color: gray;
+	cursor: pointer;
+}
+
+.menu {
+	list-style-type: none;
+	margin-left: 50px;
+	padding: 0;
+	overflow: hidden;
+}
+
+.menu li {
+	font-size: 14px;
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 5px;
+	border: solid 1px black;
+	border-radius: 5px;
+	color: white;
+	background-color: #333333;
+	margin: 1px;
+}
+
+.menu li:hover {
+	color: black;
+	background-color: gray;
+	border: solid 1px black;
+	cursor: pointer;
 }

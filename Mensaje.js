@@ -51,7 +51,10 @@ function BorrarTextoMensaje() {
 	document.getElementById("TextoMensaje").focus();
 }
 
-function AbrirPagina() {
-	sessionStorage.setItem("VentanaLlamante", "Mensaje.html");
-	location.href = "./NuevaPagina.html";
+function AbrirPagina(ventana) {
+	sessionStorage.setItem(
+		"VentanaLlamante",
+		window.location.href.substring(window.location.href.lastIndexOf("/") + 1)
+	);
+	location.href = "./" + ventana + ".html";
 }
