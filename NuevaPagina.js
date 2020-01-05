@@ -4,10 +4,6 @@ function InicioNuevaPagina() {
 	document.getElementById("Menu2").classList.add("seleccionado");
 }
 
-function Volver() {
-	location.href = "./" + sessionStorage.getItem("VentanaLlamante");
-}
-
 function definirBotones() {
 	MostrarTodos(maxNivel);
 	OcultarTodos(maxNivel);

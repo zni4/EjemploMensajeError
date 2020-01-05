@@ -59,3 +59,7 @@ function AbrirPagina(ventana) {
 	);
 	location.href = "./" + ventana + ".html";
 }
+
+function Volver() {
+	location.href = "./" + sessionStorage.getItem("VentanaLlamante");
+}

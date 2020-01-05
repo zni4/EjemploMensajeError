@@ -1,17 +1,18 @@
-<!DOCTYPE html>
-
+﻿<!DOCTYPE html>
 <link
 	href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
 	rel="stylesheet"
 />
-<link href="Mensaje.css" rel="stylesheet" />
 
+<link href="Mensaje.css" rel="stylesheet" />
+<link href="NuevaPagina.css" rel="stylesheet" />
+
+<script src="Opcion3.js"></script>
 <script src="Mensaje.js"></script>
 <script src="Include.js"></script>
-
 <script>
 	window.onload = function() {
-		Inicio();
+		InicioOpcion3();
 	};
 </script>
 
@@ -21,33 +22,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<link rel="shortcut icon" href="Warning.png" />
-		<title>EJEMPLO</title>
+		<title>Opción 3</title>
 	</head>
 
 	<body>
 		<div include-html="Header.html"></div>
-
-		<div class="cabeceraPpal">
-			<h1>INTRODUZCA EL MENSAJE</h1>
-			<input
-				type="text"
-				id="TextoMensaje"
-				class="input_Text"
-				required="required"
-			/>
-			<button
-				class="Botonverde"
-				onclick="MostrarMensaje(document.getElementById('TextoMensaje').value);"
-			>
-				Mostrar Mensaje
-			</button>
-			<button class="Botonrojo" onclick="BorrarTextoMensaje();">
-				Borrar Mensaje
-			</button>
-			<button class="Botonmorado" onclick="AbrirPagina('NuevaPagina');">
-				Nueva Página
-			</button>
-		</div>
 
 		<div include-html="Footer.html"></div>
 	</body>
