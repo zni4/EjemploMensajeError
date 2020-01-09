@@ -91,7 +91,7 @@
     }
 
     .infoSecundaria hr {
-        border: 0.1px solid grey;
+        border-top: 1px solid grey;
         margin-left: 0.2em;
         margin-right: 0.2em;
     }
@@ -115,7 +115,7 @@
     }
 
     .infoSecundariaMostrar hr {
-        border: 0.1px solid grey;
+        border-top: 1px solid grey;
         margin-left: 0.2em;
         margin-right: 0.2em;
     }
