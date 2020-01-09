@@ -29,18 +29,22 @@
 	<body>
 		<div include-html="Header.html"></div>
 
-        <div class="infoContenedor">
-            <div class="infoPrincipal">
+        <div id="infoContenedor1" class="infoContenedor">
+            <div id="infoPrincipal1" class="infoPrincipal" onclick="fijarquitarInfoSecundaria();">
                 <b>Dato normal titulo un poco largo</b>
-                <a>Texto 1, suficientemente largo para ver como queda</a>
-                <a>Texto 2</a>
+                <p>Texto 1, suficientemente largo para ver como queda</p>
+                <p>Texto 2, más corto</p>
             </div>
-          
-            <div class="infoSecundaria">
+
+            <div id="infoSecundaria1" class="infoSecundaria">
                 <hr />
-                <a>Texto adicional 1 largo como un demonio de dos cabezas</a>
-                <a>Texto adicional 2 mas corto</a>
+                <span id="flechaDerecha1" class="flechaDerecha" onclick="mostrarDerecha();"></span>
+                <p>Texto adicional 1 largo como un demonio de dos cabezas</p>
+                <p>Texto adicional 2 mas corto</p>
             </div>
+        </div>
+        <div id="infoDerecha1" class="infoDerecha">
+            <p>Texto 1, suficientemente largo para ver como queda. Es una prueba de un texto mas bien larguito para que pueda ver el efecto que tendría</p>
         </div>
 
 		<div include-html="Footer.html"></div>
