@@ -23,13 +23,15 @@
 
 .infoPrincipal:hover {
 	border: none;
-	margin-right: 1px; /*De esta manera al quitar el borde el texto no se modifica*/
+	margin-right: 1px;
+	margin-left: 1px; /*De esta manera al quitar el borde el texto no se modifica*/
 	cursor: pointer;
 }
 
 .infoPrincipal:hover ~ .infoSecundaria {
 	display: block;
 	border: none;
+	padding-bottom: 5px;
 }
 
 .infoPrincipal b {
@@ -50,11 +52,11 @@
 }
 
 .infoPrincipalMostrar {
-	border: 1px solid grey;
 	border-radius: 7px;
 	padding-bottom: 5px;
 	border: none;
 	margin-right: 1px;
+	margin-left: 1px;
 	cursor: pointer;
 }
 
@@ -76,12 +78,7 @@
 }
 
 .infoSecundaria {
-	border-bottom: 1px solid grey;
-	border-left: 1px solid grey;
-	border-right: 1px solid grey;
 	display: none;
-	margin-top: 5px;
-	padding-bottom: 5px;
 }
 
 .infoSecundaria p {
@@ -123,13 +120,7 @@
 }
 
 .flechaDerecha {
-	width: 72px;
-	height: 72px;
 	display: none;
-	position: absolute;
-	left: 20%;
-	top: 210px;
-	background-image: url("FlechaDerecha.png");
 }
 
 .flechaDerechaMostrar {
@@ -147,21 +138,13 @@
 }
 
 .infoDerecha {
-	border-radius: 7px;
-	position: relative;
-	top: -180px;
-	left: 24%;
-	width: 30%;
-	height: auto;
-	z-index: -1;
 	display: none;
 }
 
 .infoDerechaMostrar {
 	border-radius: 7px;
-	position: relative;
-	top: -180px;
-	left: 24%;
+	margin-left: 25%;
+	margin-top: -15%;
 	width: 30%;
 	height: auto;
 	z-index: -1;
