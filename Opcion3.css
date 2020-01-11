@@ -1,176 +1,173 @@
 .infoContenedor {
-    width: 15%;
+	width: 15%;
+	margin-left: 5%;
 }
 
-    .infoContenedor:hover {
-        box-shadow: 0px 0px 8px grey;
-        border-radius: 7px;
-    }
+.infoContenedor:hover {
+	box-shadow: 0px 0px 8px grey;
+	border-radius: 7px;
+}
 
-    .infoContenedorMostrar {
-        width: 15%;
-        box-shadow: 0px 0px 8px grey;
-        border-radius: 7px;
-    }
+.infoContenedorMostrar {
+	width: 15%;
+	box-shadow: 0px 0px 8px grey;
+	border-radius: 7px;
+	margin-left: 5%;
+}
 
 .infoPrincipal {
-    border: 1px solid grey;
-    border-radius: 7px;
-    padding-bottom: 5px;
+	border: 1px solid grey;
+	border-radius: 7px;
+	padding-bottom: 5px;
 }
 
-    .infoPrincipal:hover {
-        border: none;
-        margin-right: 1px; /*De esta manera al quitar el borde el texto no se modifica*/
-        cursor: pointer;
-    }
+.infoPrincipal:hover {
+	border: none;
+	margin-right: 1px; /*De esta manera al quitar el borde el texto no se modifica*/
+	cursor: pointer;
+}
 
-    .infoPrincipal:hover ~ .infoSecundaria {
-        display: block;
-        border: none;
-    }
+.infoPrincipal:hover ~ .infoSecundaria {
+	display: block;
+	border: none;
+}
 
-    .infoPrincipal b {
-        font-size: medium;
-        margin-left: 5px;
-        width: 100%;
-        display: block;
-        overflow: hidden;
-        word-wrap: break-word;
-    }
+.infoPrincipal b {
+	font-size: medium;
+	margin-left: 5px;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	word-wrap: break-word;
+}
 
-    .infoPrincipal p {
-        font-size: small;
-        margin-left: 10px;
-        display: block;
-        overflow: hidden;
-        word-wrap: break-word;
-    }
+.infoPrincipal p {
+	font-size: small;
+	margin-left: 10px;
+	display: block;
+	overflow: hidden;
+	word-wrap: break-word;
+}
 
 .infoPrincipalMostrar {
-    border: 1px solid grey;
-    border-radius: 7px;
-    padding-bottom: 5px;
-    border: none;
-    margin-right: 1px;
-    cursor: pointer;
+	border: 1px solid grey;
+	border-radius: 7px;
+	padding-bottom: 5px;
+	border: none;
+	margin-right: 1px;
+	cursor: pointer;
 }
 
-    .infoPrincipalMostrar b {
-        font-size: medium;
-        margin-left: 5px;
-        width: 100%;
-        display: block;
-        overflow: hidden;
-        word-wrap: break-word;
-    }
+.infoPrincipalMostrar b {
+	font-size: medium;
+	margin-left: 5px;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	word-wrap: break-word;
+}
 
-    .infoPrincipalMostrar p {
-        font-size: small;
-        margin-left: 10px;
-        display: block;
-        overflow: hidden;
-        word-wrap: break-word;
-    }
+.infoPrincipalMostrar p {
+	font-size: small;
+	margin-left: 10px;
+	display: block;
+	overflow: hidden;
+	word-wrap: break-word;
+}
 
 .infoSecundaria {
-    border-bottom: 1px solid grey;
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
-    display: none;
-    margin-top: 5px;
-    padding-bottom: 5px;
+	border-bottom: 1px solid grey;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+	display: none;
+	margin-top: 5px;
+	padding-bottom: 5px;
 }
 
-    .infoSecundaria p {
-        font-size: xx-small;
-        margin-left: 10px;
-        display: block;
-        overflow: hidden;
-        word-wrap: break-word;
-    }
+.infoSecundaria p {
+	font-size: xx-small;
+	margin-left: 10px;
+	display: block;
+	overflow: hidden;
+	word-wrap: break-word;
+}
 
-    .infoSecundaria hr {
-        border-top: 1px solid grey;
-        margin-left: 0.2em;
-        margin-right: 0.2em;
-    }
+.infoSecundaria hr {
+	border-top: 1px solid grey;
+	margin-left: 0.2em;
+	margin-right: 0.2em;
+}
 
 .infoSecundariaMostrar {
-    border-bottom: 1px solid grey;
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
-    margin-top: 5px;
-    padding-bottom: 5px;
-    display: block;
-    border: none;
+	border-bottom: 1px solid grey;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+	margin-top: 5px;
+	padding-bottom: 5px;
+	display: block;
+	border: none;
 }
 
-    .infoSecundariaMostrar p {
-        font-size: xx-small;
-        margin-left: 10px;
-        display: block;
-        overflow: hidden;
-        word-wrap: break-word;
-    }
+.infoSecundariaMostrar p {
+	font-size: xx-small;
+	margin-left: 10px;
+	display: block;
+	overflow: hidden;
+	word-wrap: break-word;
+}
 
-    .infoSecundariaMostrar hr {
-        border-top: 1px solid grey;
-        margin-left: 0.2em;
-        margin-right: 0.2em;
-    }
+.infoSecundariaMostrar hr {
+	border-top: 1px solid grey;
+	margin-left: 0.2em;
+	margin-right: 0.2em;
+}
 
 .flechaDerecha {
-    width: 72px;
-    height: 72px;
-    display:none; 
-    position:absolute; 
-    left: 15%;
-    top: 80px;
-    float: right; 
-    background-image: url('FlechaDerecha.png');
+	width: 72px;
+	height: 72px;
+	display: none;
+	position: absolute;
+	left: 20%;
+	top: 210px;
+	background-image: url("FlechaDerecha.png");
 }
 
 .flechaDerechaMostrar {
-    width: 72px;
-    height: 72px;
-    display: block;
-    position: absolute;
-    left: 15%;
-    top: 80px;
-    float: right;
-    background-image: url('FlechaDerecha.png');
+	width: 72px;
+	height: 72px;
+	display: block;
+	position: absolute;
+	left: 20%;
+	top: 210px;
+	background-image: url("FlechaDerecha.png");
 }
 
-    .flechaDerechaMostrar:hover {
-        cursor: pointer;
-    }
+.flechaDerechaMostrar:hover {
+	cursor: pointer;
+}
 
 .infoDerecha {
-    border-radius: 7px;
-    float: left;
-    position: absolute;
-    top: 50px;
-    left: 20%;
-    width: 30%;
-    height: 300px;
-    z-index: -1;
-    display:none;
+	border-radius: 7px;
+	position: relative;
+	top: -180px;
+	left: 24%;
+	width: 30%;
+	height: auto;
+	z-index: -1;
+	display: none;
 }
 
 .infoDerechaMostrar {
-    border-radius: 7px;
-    float: left;
-    position: absolute;
-    top: 50px;
-    left: 20%;
-    width: 30%;
-    height: 300px;
-    z-index: -1;
-    font-size: xx-small;
-    box-shadow: 0px 0px 8px grey;
-    padding-left: 10px;
-    display: block;
-    overflow: hidden;
-    word-wrap: break-word;
+	border-radius: 7px;
+	position: relative;
+	top: -180px;
+	left: 24%;
+	width: 30%;
+	height: auto;
+	z-index: -1;
+	font-size: xx-small;
+	box-shadow: 0px 0px 8px grey;
+	padding-left: 10px;
+	display: block;
+	word-wrap: break-word;
 }
