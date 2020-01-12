@@ -124,13 +124,41 @@
 }
 
 .flechaDerechaMostrar {
-	width: 72px;
-	height: 72px;
-	display: block;
 	position: absolute;
 	left: 20%;
 	top: 210px;
-	background-image: url("FlechaDerecha.png");
+	display: block;
+	width: 60px;
+	height: 50px;
+	border-radius: 10px 5px 5px 10px;
+	background: #f5a4a4;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	box-shadow: 0px 0px 8px grey;
+}
+
+.flechaDerechaMostrar:before,
+.flechaDerechaMostrar:after {
+	content: "";
+	position: absolute;
+	right: -15px;
+	width: 32px;
+	height: 15px;
+	border-radius: 5px;
+	background: #f5a4a4;
+}
+.flechaDerechaMostrar:before {
+	top: 9px;
+	-webkit-transform: rotate(65deg);
+	-ms-transform: rotate(65deg);
+	transform: rotate(65deg);
+}
+.flechaDerechaMostrar:after {
+	bottom: 9px;
+	-webkit-transform: rotate(-65deg);
+	-ms-transform: rotate(-65deg);
+	transform: rotate(-65deg);
 }
 
 .flechaDerechaMostrar:hover {
