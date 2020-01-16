@@ -26,87 +26,131 @@
 		<title>Opción 3</title>
 	</head>
 
-	<body>
-		<div include-html="Header.html"></div>
+    <body>
+        <div include-html="Header.html"></div>
 
-		<div>
-			<div id="infoContenedor1" class="infoContenedor">
-				<div
-					id="infoPrincipal1"
-					class="infoPrincipal"
-					onclick="fijarquitarInfoSecundaria();"
-				>
-					<b>Dato normal titulo un poco largo</b>
-					<p>Texto 1, suficientemente largo para ver como queda</p>
-					<p>Texto 2, más corto</p>
-				</div>
+            <div class="Contenedor">
+                <div id="infoContenedor1" class="infoContenedor">
+                    <div id="infoPrincipal1"
+                         class="infoPrincipal"
+                         onclick="fijarquitarInfoSecundaria(1);">
+                        <b>Dato normal titulo un poco largo</b>
+                        <p>Texto 1, suficientemente largo para ver como queda</p>
+                        <p>Texto 2, más corto</p>
+                    </div>
 
-				<div id="infoSecundaria1" class="infoSecundaria">
-					<hr />
-					<span
-						id="flechaDerecha1"
-						class="flechaDerecha"
-						onclick="mostrarDerecha();"
-					></span>
-					<p>Texto adicional 1 largo como un demonio de dos cabezas</p>
-					<p>Texto adicional 2 mas corto</p>
-				</div>
-			</div>
-			<div id="infoDerecha1" class="infoDerecha">
-				<p>
-					<b>Texto 1</b><br />Suficientemente largo para ver como queda. Es una
-					prueba de un texto mas bien larguito para que pueda ver el efecto que
-					tendría. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
-					excepturi minima necessitatibus, corrupti nihil accusantium assumenda
-					reprehenderit nulla. Voluptatem dolor voluptas dolorum! In, accusamus.
-					Natus temporibus id ut ducimus consequatur. Lorem ipsum dolor, sit
-					amet consectetur adipisicing elit. Doloremque odio necessitatibus
-					laudantium nostrum aut suscipit quod soluta blanditiis at libero, fuga
-					nemo commodi id itaque voluptate iusto deserunt tempora cum! Lorem
-					ipsum dolor, sit amet consectetur adipisicing elit. Molestias
-					nesciunt, sit ipsa consectetur assumenda iure? Dolorem et nisi libero
-					quisquam sint odio culpa quas officiis, rerum mollitia eveniet
-					exercitationem iusto! Lorem ipsum dolor sit amet consectetur
-					adipisicing elit. Reprehenderit repellendus dolore tenetur provident
-					asperiores impedit omnis quia molestiae aut enim ea, ex, culpa
-					expedita fugit eius quasi reiciendis veritatis est. Lorem ipsum dolor
-					sit, amet consectetur adipisicing elit. Id, cumque culpa sapiente cum
-					dolor eaque voluptas! Quisquam error libero ullam. Ipsa, ex. Alias
-					animi perspiciatis, eius soluta libero aspernatur non. Texto 1,
-					suficientemente largo para ver como queda. Es una prueba de un texto
-					mas bien larguito para que pueda ver el efecto que tendría. Lorem
-					ipsum, dolor sit amet consectetur adipisicing elit. Ex excepturi
-					minima necessitatibus, corrupti nihil accusantium assumenda
-					reprehenderit nulla. Voluptatem dolor voluptas dolorum! In, accusamus.
-					Natus temporibus id ut ducimus consequatur. Lorem ipsum dolor sit,
-					amet consectetur adipisicing elit. Id, cumque culpa sapiente cum dolor
-					eaque voluptas! Quisquam error libero ullam. Ipsa, ex. Alias animi
-					perspiciatis, eius soluta libero aspernatur non. Texto 1,
-					suficientemente largo para ver como queda. Es una prueba de un texto
-					mas bien larguito para que pueda ver el efecto que tendría. Lorem
-					ipsum, dolor sit amet consectetur adipisicing elit. Ex excepturi
-					minima necessitatibus, corrupti nihil accusantium assumenda
-					reprehenderit nulla. Voluptatem dolor voluptas dolorum! In, accusamus.
-					Natus temporibus id ut ducimus consequatur. Lorem ipsum dolor, sit
-					amet consectetur adipisicing elit. Doloremque odio necessitatibus
-					laudantium nostrum aut suscipit quod soluta blanditiis at libero, fuga
-					nemo commodi id itaque voluptate iusto deserunt tempora cum! Lorem
-					ipsum dolor, sit amet consectetur adipisicing elit. Molestias
-					nesciunt, sit ipsa consectetur assumenda iure? Dolorem et nisi libero
-					quisquam sint odio culpa quas officiis, rerum mollitia eveniet
-					exercitationem iusto! Lorem ipsum dolor sit amet consectetur
-					adipisicing elit. Reprehenderit repellendus dolore tenetur provident
-					asperiores impedit omnis quia molestiae aut enim ea, ex, culpa
-					expedita fugit eius quasi reiciendis veritatis est. Lorem ipsum dolor
-					sit, amet consectetur adipisicing elit. Id, cumque culpa sapiente cum
-					dolor eaque voluptas! Quisquam error libero ullam. Ipsa, ex. Alias
-					animi perspiciatis, eius soluta libero aspernatur non.<br /><b>FIN</b>
-				</p>
-			</div>
-		</div>
+                    <div id="infoSecundaria1" class="infoSecundaria">
+                        <hr />
+                        <span id="flechaDerecha1"
+                              class="flechaDerecha"
+                              onclick="mostrarDerecha(1);"></span>
+                        <p>
+                            Texto adicional 1 largo como un demonio de dos cabezas. Lorem ipsum dolor, sit
+                            amet consectetur adipisicing elit. Doloremque odio necessitatibus
+                            laudantium nostrum aut suscipit quod soluta blanditiis at libero, fuga
+                            nemo commodi id itaque voluptate iusto deserunt tempora cum! Lorem
+                            ipsum dolor, sit amet consectetur adipisicing elit. Molestias
+                            nesciunt, sit ipsa consectetur assumenda iure? Dolorem et nisi libero
+                            quisquam sint odio culpa quas officiis, rerum mollitia eveniet
+                            exercitationem iusto! Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Reprehenderit repellendus dolore tenetur provident
+                            asperiores impedit omnis quia molestiae aut enim ea, ex, culpa
+                            expedita fugit eius quasi reiciendis veritatis est. 
+                        </p>
+                    </div>
+                </div>
+                <div id="infoDerecha1" class="infoDerecha">
+                    <p>
+                        <b>Texto 1</b><br />Suficientemente largo para ver como queda. Es una
+                        prueba de un texto mas bien larguito para que pueda ver el efecto que
+                        tendría. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
+                        excepturi minima necessitatibus, corrupti nihil accusantium assumenda
+                        reprehenderit nulla. Voluptatem dolor voluptas dolorum! In, accusamus.
+                        Natus temporibus id ut ducimus consequatur. Lorem ipsum dolor, sit
+                        amet consectetur adipisicing elit. Doloremque odio necessitatibus
+                        laudantium nostrum aut suscipit quod soluta blanditiis at libero, fuga
+                        nemo commodi id itaque voluptate iusto deserunt tempora cum! Lorem
+                        ipsum dolor, sit amet consectetur adipisicing elit. Molestias
+                        nesciunt, sit ipsa consectetur assumenda iure? Dolorem et nisi libero
+                        quisquam sint odio culpa quas officiis, rerum mollitia eveniet
+                        exercitationem iusto! Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Reprehenderit repellendus dolore tenetur provident
+                        asperiores impedit omnis quia molestiae aut enim ea, ex, culpa
+                        expedita fugit eius quasi reiciendis veritatis est. Lorem ipsum dolor
+                        sit, amet consectetur adipisicing elit. Id, cumque culpa sapiente cum
+                        dolor eaque voluptas! Quisquam error libero ullam. Ipsa, ex. Alias
+                        animi perspiciatis, eius soluta libero aspernatur non. Texto 1,
+                        suficientemente largo para ver como queda. Es una prueba de un texto
+                        mas bien larguito para que pueda ver el efecto que tendría. Lorem
+                        ipsum, dolor sit amet consectetur adipisicing elit. Ex excepturi
+                        minima necessitatibus, corrupti nihil accusantium assumenda
+                        reprehenderit nulla. Voluptatem dolor voluptas dolorum! In, accusamus.
+                        Natus temporibus id ut ducimus consequatur. Lorem ipsum dolor sit,
+                        amet consectetur adipisicing elit. Id, cumque culpa sapiente cum dolor
+                        eaque voluptas! Quisquam error libero ullam. Ipsa, ex. Alias animi
+                        perspiciatis, eius soluta libero aspernatur non. Texto 1,
+                        suficientemente largo para ver como queda. Es una prueba de un texto
+                        mas bien larguito para que pueda ver el efecto que tendría. Lorem
+                        ipsum, dolor sit amet consectetur adipisicing elit. Ex excepturi
+                        minima necessitatibus, corrupti nihil accusantium assumenda
+                        reprehenderit nulla. Voluptatem dolor voluptas dolorum! In, accusamus.
+                        Natus temporibus id ut ducimus consequatur. Lorem ipsum dolor, sit
+                        amet consectetur adipisicing elit. Doloremque odio necessitatibus
+                        laudantium nostrum aut suscipit quod soluta blanditiis at libero, fuga
+                        nemo commodi id itaque voluptate iusto deserunt tempora cum! Lorem
+                        ipsum dolor, sit amet consectetur adipisicing elit. Molestias
+                        nesciunt, sit ipsa consectetur assumenda iure? Dolorem et nisi libero
+                        quisquam sint odio culpa quas officiis, rerum mollitia eveniet
+                        exercitationem iusto! Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Reprehenderit repellendus dolore tenetur provident
+                        asperiores impedit omnis quia molestiae aut enim ea, ex, culpa
+                        expedita fugit eius quasi reiciendis veritatis est. Lorem ipsum dolor
+                        sit, amet consectetur adipisicing elit. Id, cumque culpa sapiente cum
+                        dolor eaque voluptas! Quisquam error libero ullam. Ipsa, ex. Alias
+                        animi perspiciatis, eius soluta libero aspernatur non. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Reprehenderit repellendus dolore tenetur provident
+                        asperiores impedit omnis quia molestiae aut enim ea, ex, culpa
+                        expedita fugit eius quasi reiciendis veritatis est. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Reprehenderit repellendus dolore tenetur provident
+                        asperiores impedit omnis quia molestiae aut enim ea, ex, culpa
+                        expedita fugit eius quasi reiciendis veritatis est.<br /><b>FIN</b>
+                    </p>
+                </div>
+            </div>
 
-		<div include-html="Footer.html"></div>
-	</body>
+            <br />
+
+            <div class="Contenedor">
+                <div id="infoContenedor2" class="infoContenedor">
+                    <div id="infoPrincipal2"
+                         class="infoPrincipal"
+                         onclick="fijarquitarInfoSecundaria(2);">
+                        <b>ELEMENTO 2</b>
+                        <p>Texto 1</p>
+                    </div>
+
+                    <div id="infoSecundaria2" class="infoSecundaria">
+                        <hr />
+                        <span id="flechaDerecha2"
+                              class="flechaDerecha"
+                              onclick="mostrarDerecha(2);"></span>
+                        <p>Texto adicional 1</p>
+                    </div>
+                </div>
+                <div id="infoDerecha2" class="infoDerecha">
+                    <p>
+                        <b>Texto 2</b><br />Suficientemente largo para ver como queda. Es una
+                        prueba de un texto mas bien larguito para que pueda ver el efecto que
+                        tendría. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
+                        excepturi minima necessitatibus, corrupti nihil accusantium assumenda
+                        reprehenderit nulla. Voluptatem dolor voluptas dolorum! In, accusamus.
+                        Natus temporibus id ut ducimus consequatur.<br /><b>FIN</b>
+                    </p>
+                </div>
+            </div>
+        
+        <div include-html="Footer.html"></div>
+    </body>
 </html>
 
 <script>

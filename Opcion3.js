@@ -2,54 +2,54 @@ function InicioOpcion3() {
 	document.getElementById("Menu3").classList.add("seleccionado");
 }
 
-function fijarquitarInfoSecundaria() {
+function fijarquitarInfoSecundaria(numElemento) {
 
-    if (document.getElementById("infoContenedor1").classList.contains("infoContenedor")) {
-        document.getElementById("infoContenedor1").classList.remove("infoContenedor");
-        document.getElementById("infoContenedor1").classList.add("infoContenedorMostrar");
+    if (document.getElementById("infoContenedor" + numElemento).classList.contains("infoContenedor")) {
+        document.getElementById("infoContenedor" + numElemento).classList.remove("infoContenedor");
+        document.getElementById("infoContenedor" + numElemento).classList.add("infoContenedorMostrar");
     }
     else {
-        document.getElementById("infoContenedor1").classList.remove("infoContenedorMostrar");
-        document.getElementById("infoContenedor1").classList.add("infoContenedor");
+        document.getElementById("infoContenedor" + numElemento).classList.remove("infoContenedorMostrar");
+        document.getElementById("infoContenedor" + numElemento).classList.add("infoContenedor");
     }
 
-    if (document.getElementById("infoPrincipal1").classList.contains("infoPrincipal")) {
-        document.getElementById("infoPrincipal1").classList.remove("infoPrincipal");
-        document.getElementById("infoPrincipal1").classList.add("infoPrincipalMostrar");
+    if (document.getElementById("infoPrincipal" + numElemento).classList.contains("infoPrincipal")) {
+        document.getElementById("infoPrincipal" + numElemento).classList.remove("infoPrincipal");
+        document.getElementById("infoPrincipal" + numElemento).classList.add("infoPrincipalMostrar");
     }
     else {
-        document.getElementById("infoPrincipal1").classList.remove("infoPrincipalMostrar");
-        document.getElementById("infoPrincipal1").classList.add("infoPrincipal");
+        document.getElementById("infoPrincipal" + numElemento).classList.remove("infoPrincipalMostrar");
+        document.getElementById("infoPrincipal" + numElemento).classList.add("infoPrincipal");
     }
 
-    if (document.getElementById("infoSecundaria1").classList.contains("infoSecundaria")) {
-        document.getElementById("infoSecundaria1").classList.remove("infoSecundaria");
-        document.getElementById("infoSecundaria1").classList.add("infoSecundariaMostrar");
+    if (document.getElementById("infoSecundaria" + numElemento).classList.contains("infoSecundaria")) {
+        document.getElementById("infoSecundaria" + numElemento).classList.remove("infoSecundaria");
+        document.getElementById("infoSecundaria" + numElemento).classList.add("infoSecundariaMostrar");
     }
     else {
-        document.getElementById("infoSecundaria1").classList.remove("infoSecundariaMostrar");
-        document.getElementById("infoSecundaria1").classList.add("infoSecundaria");
+        document.getElementById("infoSecundaria" + numElemento).classList.remove("infoSecundariaMostrar");
+        document.getElementById("infoSecundaria" + numElemento).classList.add("infoSecundaria");
     }
 
-    if (document.getElementById("flechaDerecha1").classList.contains("flechaDerecha")) {
-        document.getElementById("flechaDerecha1").classList.remove("flechaDerecha");
-        document.getElementById("flechaDerecha1").classList.add("flechaDerechaMostrar");
+    if (document.getElementById("flechaDerecha" + numElemento).classList.contains("flechaDerecha")) {
+        document.getElementById("flechaDerecha" + numElemento).classList.remove("flechaDerecha");
+        document.getElementById("flechaDerecha" + numElemento).classList.add("flechaDerechaMostrar");
     }
     else {
-        document.getElementById("flechaDerecha1").classList.remove("flechaDerechaMostrar");
-        document.getElementById("flechaDerecha1").classList.add("flechaDerecha");
-        document.getElementById("infoDerecha1").classList.remove("infoDerechaMostrar");
-        document.getElementById("infoDerecha1").classList.add("infoDerecha");
+        document.getElementById("flechaDerecha" + numElemento).classList.remove("flechaDerechaMostrar");
+        document.getElementById("flechaDerecha" + numElemento).classList.add("flechaDerecha");
+        document.getElementById("infoDerecha" + numElemento).classList.remove("infoDerechaMostrar");
+        document.getElementById("infoDerecha" + numElemento).classList.add("infoDerecha");
     }
 }
 
-function mostrarDerecha() {
-    if (document.getElementById("infoDerecha1").classList.contains("infoDerecha")) {
-        document.getElementById("infoDerecha1").classList.remove("infoDerecha");
-        document.getElementById("infoDerecha1").classList.add("infoDerechaMostrar");
+function mostrarDerecha(numElemento) {
+    if (document.getElementById("infoDerecha" + numElemento).classList.contains("infoDerecha")) {
+        document.getElementById("infoDerecha" + numElemento).classList.remove("infoDerecha");
+        document.getElementById("infoDerecha" + numElemento).classList.add("infoDerechaMostrar");
     }
     else {
-        document.getElementById("infoDerecha1").classList.remove("infoDerechaMostrar");
-        document.getElementById("infoDerecha1").classList.add("infoDerecha");
+        document.getElementById("infoDerecha" + numElemento).classList.remove("infoDerechaMostrar");
+        document.getElementById("infoDerecha" + numElemento).classList.add("infoDerecha");
     }
 }
