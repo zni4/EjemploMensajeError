@@ -6,7 +6,7 @@
 
 <link href="Mensaje.css" rel="stylesheet" />
 
-<link href="Opcion3.css" rel="stylesheet" />
+<link href="Opcion3 - old.css" rel="stylesheet" />
 
 <script src="Opcion3.js"></script>
 <script src="Mensaje.js"></script>
@@ -29,17 +29,23 @@
     <body>
         <div include-html="Header.html"></div>
 
-        <h1>USANDO FLEX PARA PONER UN CONTENEDOR AL LADO DE OTRO</h1>
+        <h1>USANDO POSICIONES RELATIVAS PARA PONER UN CONTENEDOR AL LADO DE OTRO</h1>
 
         <div class="Contenedor">
             <div id="infoContenedor1" class="infoContenedor">
-                <div id="infoPrincipal1" class="infoPrincipal" onclick="fijarquitarInfoSecundaria(1);">
+                <div id="infoPrincipal1"
+                     class="infoPrincipal"
+                     onclick="fijarquitarInfoSecundaria(1);">
                     <b>Dato normal titulo un poco largo</b>
                     <p>Texto 1, suficientemente largo para ver como queda</p>
                     <p>Texto 2, más corto</p>
                 </div>
+
                 <div id="infoSecundaria1" class="infoSecundaria">
                     <hr />
+                    <span id="flechaDerecha1"
+                          class="flechaDerecha"
+                          onclick="mostrarDerecha(1);"></span>
                     <p>
                         Texto adicional 1 largo como un demonio de dos cabezas. Lorem ipsum dolor, sit
                         amet consectetur adipisicing elit. Doloremque odio necessitatibus
@@ -55,7 +61,6 @@
                     </p>
                 </div>
             </div>
-            <div id="flechaDerecha1" class="flechaDerecha" onclick="mostrarDerecha(1);"></div>
             <div id="infoDerecha1" class="infoDerecha">
                 <p>
                     <b>Texto 1</b><br />Suficientemente largo para ver como queda. Es una
@@ -119,16 +124,21 @@
 
         <div class="Contenedor">
             <div id="infoContenedor2" class="infoContenedor">
-                <div id="infoPrincipal2" class="infoPrincipal" onclick="fijarquitarInfoSecundaria(2);">
+                <div id="infoPrincipal2"
+                     class="infoPrincipal"
+                     onclick="fijarquitarInfoSecundaria(2);">
                     <b>ELEMENTO 2</b>
                     <p>Texto 1</p>
                 </div>
+
                 <div id="infoSecundaria2" class="infoSecundaria">
                     <hr />
+                    <span id="flechaDerecha2"
+                          class="flechaDerecha"
+                          onclick="mostrarDerecha(2);"></span>
                     <p>Texto adicional 1</p>
                 </div>
             </div>
-            <div id="flechaDerecha2" class="flechaDerecha" onclick="mostrarDerecha(2);"></div>
             <div id="infoDerecha2" class="infoDerecha">
                 <p>
                     <b>Texto 2</b><br />Suficientemente largo para ver como queda. Es una

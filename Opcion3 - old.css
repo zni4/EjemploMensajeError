@@ -4,9 +4,8 @@
 }
 
 .infoContenedor {
-	width: 15%;
-	margin-left: 5%;
-    display: block;
+    width: 15%;
+    margin-left: 5%;
 }
 
 .infoContenedor:hover {
@@ -15,11 +14,10 @@
 }
 
 .infoContenedorMostrar {
-    width: 15%;
-    box-shadow: 0px 0px 8px grey;
-    border-radius: 7px;
-    margin-left: 5%;
-    display: block;
+	width: 15%;
+	box-shadow: 0px 0px 8px grey;
+	border-radius: 7px;
+	margin-left: 5%;
     background: #656fe5;
 }
 
@@ -106,11 +104,11 @@
         padding-bottom: 5px;
     }
 
-.infoSecundaria hr {
-	border-top: 1px solid grey;
-	margin-left: 0.2em;
-	margin-right: 0.2em;
-}
+    .infoSecundaria hr {
+        border-top: 1px solid grey;
+        margin-left: 0.2em;
+        margin-right: 0.2em;
+    }
 
 .infoSecundariaMostrar {
     border-bottom: 1px solid grey;
@@ -128,6 +126,7 @@
 	display: block;
 	overflow: hidden;
 	word-wrap: break-word;
+    margin-top: -49px;
 }
 
     .infoSecundariaMostrar a {
@@ -154,7 +153,9 @@
 
 .flechaDerechaMostrar {
     position: relative;
-    top: 3vh;
+    right: -100%;
+    top: -35px;
+    display: block;
     width: 60px;
     height: 50px;
     border-radius: 10px 5px 5px 10px;
@@ -197,11 +198,10 @@
 }
 
 .infoDerechaMostrar {
-    position: relative;
     border-radius: 7px;
     width: 40%;
     height: auto;
-    margin-left: 12px;
+    margin-left: 72px;
     margin-top: 10px;
     overflow: auto;
     z-index: -1;
