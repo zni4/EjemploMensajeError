@@ -1,12 +1,12 @@
 div .Header {
-	margin-left: 40%;
-	margin-right: 40%;
-	margin-bottom: 5px;
-	background-color: rgb(255, 225, 170);
-	height: 100px;
-	border: 2px solid orange;
-	border-radius: 5px 5px 20px 20px;
-	text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 5px;
+    background-color: rgb(255, 225, 170);
+    height: 100px;
+    border: 2px solid orange;
+    border-radius: 20px 20px 5px 5px;
+    text-align: center;
 }
 
     div .Header h2 {
@@ -32,13 +32,13 @@ div .Header {
 div .Footer {
     border: 2px solid blue;
     background-color: rgb(170, 225, 255);
-    border-radius: 10px 10px 5px 5px;
+    border-radius: 5px 5px 10px 10px;
     text-align: center;
     margin-left: 30%;
     margin-right: 30%;
 }
 
-    div .Footer h3 {
+    div .Footer h6 {
         color: blue;
         padding: 0;
         margin: 0;
@@ -95,3 +95,13 @@ div .Footer {
         background-color: gray;
         border: solid 1px black;
     }
+
+.fondoCabecera {
+    border-radius: 10px;
+    background-color: #8989b9;
+}
+
+.fondoFooter {
+    border-radius: 10px;
+    background-color: #8989b9;
+}

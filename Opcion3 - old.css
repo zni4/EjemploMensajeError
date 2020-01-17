@@ -164,6 +164,7 @@
     text-align: center;
     text-decoration: none;
     box-shadow: 0px 0px 8px grey;
+    font-size: x-small;
 }
 
     .flechaDerechaMostrar:before,
@@ -211,4 +212,9 @@
     display: block;
     word-wrap: break-word;
     background: #f5a4a4;
+}
+
+h1 {
+    margin-left: 50px;
+    text-align: center;
 }
