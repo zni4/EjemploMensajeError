@@ -3,20 +3,20 @@ div .Header {
     margin-right: 40%;
     margin-bottom: 5px;
     background-color: rgb(255, 225, 170);
-    height: 100px;
+    height: 35px;
     border: 2px solid orange;
-    border-radius: 20px 20px 5px 5px;
+    border-radius: 5px 5px 20px 20px;
     text-align: center;
 }
 
     div .Header h2 {
-        margin-top: 35px;
+        margin-top: 0px;
         color: orange;
     }
 
     div .Header img {
-        width: 100px;
-        height: 100px;
+        width: 30px;
+        height: 30px;
         float: left;
         margin-left: 5%;
     }
@@ -32,7 +32,7 @@ div .Header {
 div .Footer {
     border: 2px solid blue;
     background-color: rgb(170, 225, 255);
-    border-radius: 5px 5px 10px 10px;
+    border-radius: 10px 10px 5px 5px;
     text-align: center;
     margin-left: 30%;
     margin-right: 30%;
@@ -64,10 +64,9 @@ div .Footer {
     }
 
 .menu {
-	list-style-type: none;
-	margin-left: 50px;
-	padding: 0;
-	overflow: hidden;
+    list-style-type: none;
+    margin-left: 50px;
+    overflow: hidden;
 }
 
     .menu li {
@@ -98,10 +97,35 @@ div .Footer {
 
 .fondoCabecera {
     border-radius: 10px;
+    border: 2px solid #262a53;
     background-color: #8989b9;
+    animation: 1s ease-out 0s 1 slideInFromTop; /* Llamamos a la animación slideInFromTop que definimos a continuación */
+}
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .fondoFooter {
+    margin-top: 5px;
     border-radius: 10px;
+    border: 2px solid #262a53;
     background-color: #8989b9;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
