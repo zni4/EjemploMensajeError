@@ -5,14 +5,16 @@
 	rel="stylesheet"
 />
 <link href="Mensaje.css" rel="stylesheet" />
+<link href="index.css" rel="stylesheet" />
 
-<script src="Mensaje.js"></script>
 <script src="Include.js"></script>
+<script src="Mensaje.js"></script>
+<script src="index.js"></script>
 
 <script>
-	window.onload = function() {
-		Inicio();
-	};
+    window.onload = function () {
+        InicioMenu();
+    };
 </script>
 
 <html lang="en">
@@ -27,27 +29,9 @@
 	<body>
 		<div include-html="Header.html"></div>
 
-		<div class="cabeceraPpal">
-			<h1>INTRODUZCA EL MENSAJE</h1>
-			<input
-				type="text"
-				id="TextoMensaje"
-				class="input_Text"
-				required="required"
-			/>
-			<button
-				class="Botonverde"
-				onclick="MostrarMensaje(document.getElementById('TextoMensaje').value);"
-			>
-				Mostrar Mensaje
-			</button>
-			<button class="Botonrojo" onclick="BorrarTextoMensaje();">
-				Borrar Mensaje
-			</button>
-			<button class="Botonmorado" onclick="AbrirPagina('NuevaPagina');">
-				Nueva Página
-			</button>
-		</div>
+        <h1>
+            Acceso a la aplicación
+        </h1>
 
 		<div include-html="Footer.html"></div>
 	</body>
