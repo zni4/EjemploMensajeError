@@ -1,215 +1,215 @@
 .Contenedor {
-    height: auto;
-    display: flex;
+  height: auto;
+  display: flex;
 }
 
 .infoContenedor {
-    width: 15%;
-    margin-left: 5%;
-    display: block;
+  width: 15%;
+  margin-left: 5%;
+  display: block;
 }
 
 .infoContenedor:hover {
-	box-shadow: 0px 0px 8px grey;
-	border-radius: 7px;
+  box-shadow: 0px 0px 8px grey;
+  border-radius: 7px;
 }
 
 .infoContenedorMostrar {
-    width: 15%;
-    box-shadow: 0px 0px 8px grey;
-    border-radius: 7px;
-    margin-left: 5%;
-    display: block;
-    background: #656fe5;
+  width: 15%;
+  box-shadow: 0px 0px 8px grey;
+  border-radius: 7px;
+  margin-left: 5%;
+  display: block;
+  background: #656fe5;
 }
 
 .infoPrincipal {
-	border: 1px solid grey;
-	border-radius: 7px;
-	padding-bottom: 5px;
+  border: 1px solid grey;
+  border-radius: 7px;
+  padding-bottom: 5px;
 }
 
 .infoPrincipal:hover {
-	border: none;
-	margin-right: 1px;
-	margin-left: 1px; /*De esta manera al quitar el borde el texto no se modifica*/
-	cursor: pointer;
+  border: none;
+  margin-right: 1px;
+  margin-left: 1px; /*De esta manera al quitar el borde el texto no se modifica*/
+  cursor: pointer;
 }
 
 .infoPrincipal:hover ~ .infoSecundaria {
-	display: block;
-	border: none;
-	padding-bottom: 5px;
+  display: block;
+  border: none;
+  padding-bottom: 5px;
 }
 
 .infoPrincipal b {
-	font-size: medium;
-	margin-left: 5px;
-	width: 100%;
-	display: block;
-	overflow: hidden;
-	word-wrap: break-word;
+  font-size: medium;
+  margin-left: 5px;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
 .infoPrincipal p {
-	font-size: small;
-	margin-left: 10px;
-	display: block;
-	overflow: hidden;
-	word-wrap: break-word;
+  font-size: small;
+  margin-left: 10px;
+  display: block;
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
 .infoPrincipalMostrar {
-	border-radius: 7px;
-	padding-bottom: 5px;
-	border: none;
-	margin-right: 1px;
-	margin-left: 1px;
-	cursor: pointer;
+  border-radius: 7px;
+  padding-bottom: 5px;
+  border: none;
+  margin-right: 1px;
+  margin-left: 1px;
+  cursor: pointer;
 }
 
 .infoPrincipalMostrar b {
-	font-size: medium;
-	margin-left: 5px;
-	width: 100%;
-	display: block;
-	overflow: hidden;
-	word-wrap: break-word;
+  font-size: medium;
+  margin-left: 5px;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
 .infoPrincipalMostrar p {
-	font-size: small;
-	margin-left: 10px;
-	display: block;
-	overflow: hidden;
-	word-wrap: break-word;
+  font-size: small;
+  margin-left: 10px;
+  display: block;
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
 .infoSecundaria {
-	display: none;
+  display: none;
 }
 
 .infoSecundaria p {
-	font-size: xx-small;
-	margin-left: 10px;
-	display: block;
-	overflow: hidden;
-	word-wrap: break-word;
+  font-size: xx-small;
+  margin-left: 10px;
+  display: block;
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
-    .infoSecundaria a {
-        font-size: xx-small;
-        margin-left: 10px;
-        display: block;
-        overflow: hidden;
-        word-wrap: break-word;
-        padding-bottom: 5px;
-    }
+.infoSecundaria a {
+  font-size: xx-small;
+  margin-left: 10px;
+  display: block;
+  overflow: hidden;
+  word-wrap: break-word;
+  padding-bottom: 5px;
+}
 
 .infoSecundaria hr {
-	border-top: 1px solid grey;
-	margin-left: 0.2em;
-	margin-right: 0.2em;
+  border-top: 1px solid grey;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
 }
 
 .infoSecundariaMostrar {
-    border-bottom: 1px solid grey;
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
-    margin-top: 5px;
-    padding-bottom: 5px;
-    display: block;
-    border: none;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  display: block;
+  border: none;
 }
 
 .infoSecundariaMostrar p {
-	font-size: xx-small;
-	margin-left: 10px;
-	display: block;
-	overflow: hidden;
-	word-wrap: break-word;
+  font-size: xx-small;
+  margin-left: 10px;
+  display: block;
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
-    .infoSecundariaMostrar a {
-        font-size: xx-small;
-        margin-left: 10px;
-        display: block;
-        overflow: hidden;
-        word-wrap: break-word;
-        padding-bottom: 5px;
-    }
+.infoSecundariaMostrar a {
+  font-size: xx-small;
+  margin-left: 10px;
+  display: block;
+  overflow: hidden;
+  word-wrap: break-word;
+  padding-bottom: 5px;
+}
 
-    .infoSecundariaMostrar hr {
-        border-top: 1px solid black;
-        border-bottom: 1px solid #656fe5;
-        border-left: 1px solid #656fe5;
-        border-right: 1px solid #656fe5;
-        margin-left: 0.2em;
-        margin-right: 0.2em;
-    }
+.infoSecundariaMostrar hr {
+  border-top: 1px solid black;
+  border-bottom: 1px solid #656fe5;
+  border-left: 1px solid #656fe5;
+  border-right: 1px solid #656fe5;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+}
 
 .flechaDerecha {
-	display: none;
+  display: none;
 }
 
 .flechaDerechaMostrar {
-    position: relative;
-    top: 3vh;
-    width: 60px;
-    height: 50px;
-    border-radius: 10px 5px 5px 10px;
-    background: #9f9d9d;
-    line-height: 50px;
-    text-align: center;
-    text-decoration: none;
-    box-shadow: 0px 0px 8px grey;
-    font-size: x-small;
+  position: relative;
+  top: 3vh;
+  width: 60px;
+  height: 50px;
+  border-radius: 10px 5px 5px 10px;
+  background: #9f9d9d;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0px 0px 8px grey;
+  font-size: x-small;
 }
 
-    .flechaDerechaMostrar:before,
-    .flechaDerechaMostrar:after {
-        content: "";
-        position: absolute;
-        right: -15px;
-        width: 32px;
-        height: 15px;
-        border-radius: 5px;
-        background: #9f9d9d;
-    }
+.flechaDerechaMostrar:before,
+.flechaDerechaMostrar:after {
+  content: '';
+  position: absolute;
+  right: -15px;
+  width: 32px;
+  height: 15px;
+  border-radius: 5px;
+  background: #9f9d9d;
+}
 .flechaDerechaMostrar:before {
-	top: 9px;
-	-webkit-transform: rotate(65deg);
-	-ms-transform: rotate(65deg);
-	transform: rotate(65deg);
+  top: 9px;
+  -webkit-transform: rotate(65deg);
+  -ms-transform: rotate(65deg);
+  transform: rotate(65deg);
 }
 .flechaDerechaMostrar:after {
-	bottom: 9px;
-	-webkit-transform: rotate(-65deg);
-	-ms-transform: rotate(-65deg);
-	transform: rotate(-65deg);
+  bottom: 9px;
+  -webkit-transform: rotate(-65deg);
+  -ms-transform: rotate(-65deg);
+  transform: rotate(-65deg);
 }
 
 .flechaDerechaMostrar:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .infoDerecha {
-	display: none;
+  display: none;
 }
 
 .infoDerechaMostrar {
-    position: relative;
-    border-radius: 7px;
-    width: 40%;
-    height: auto;
-    margin-left: 12px;
-    margin-top: 10px;
-    overflow: auto;
-    z-index: -1;
-    font-size: xx-small;
-    box-shadow: 0px 0px 8px grey;
-    padding-left: 10px;
-    display: block;
-    word-wrap: break-word;
-    background: #f5a4a4;
+  position: relative;
+  border-radius: 7px;
+  width: 40%;
+  height: auto;
+  margin-left: 12px;
+  margin-top: 10px;
+  overflow: auto;
+  z-index: -1;
+  font-size: xx-small;
+  box-shadow: 0px 0px 8px grey;
+  padding-left: 10px;
+  display: block;
+  word-wrap: break-word;
+  background: #f5a4a4;
 }

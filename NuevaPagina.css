@@ -1,126 +1,126 @@
 .nivel1 {
-	/*border: 1px solid black;
+  /*border: 1px solid black;
 	border-radius: 5px;*/
-	line-height: 1.5em;
-	max-height: 1.5em;
-	width: 300px;
-	margin-left: 20px;
-	/*margin-bottom: 5px;*/
-	overflow: hidden;
-	text-overflow: clip;
-	text-align: left;
-	margin-right: -1em;
-	padding-right: 1em;
-	position: relative;
-	/*background-color: #837e7e;*/
-	/*font-size: small;*/
+  line-height: 1.5em;
+  max-height: 1.5em;
+  width: 300px;
+  margin-left: 20px;
+  /*margin-bottom: 5px;*/
+  overflow: hidden;
+  text-overflow: clip;
+  text-align: left;
+  margin-right: -1em;
+  padding-right: 1em;
+  position: relative;
+  /*background-color: #837e7e;*/
+  /*font-size: small;*/
 }
 
 .nivel2 {
-	/*border: 1px solid black;
+  /*border: 1px solid black;
 	border-radius: 5px;*/
-	line-height: 1.5em;
-	max-height: 1.5em;
-	width: 280px;
-	margin-left: 20px;
-	/*margin-bottom: 5px;*/
-	overflow: hidden;
-	text-overflow: clip;
-	text-align: left;
-	margin-right: -1em;
-	padding-right: 1em;
-	position: relative;
-	/*background-color: #c46d6d;*/
-	/*font-size: small;*/
+  line-height: 1.5em;
+  max-height: 1.5em;
+  width: 280px;
+  margin-left: 20px;
+  /*margin-bottom: 5px;*/
+  overflow: hidden;
+  text-overflow: clip;
+  text-align: left;
+  margin-right: -1em;
+  padding-right: 1em;
+  position: relative;
+  /*background-color: #c46d6d;*/
+  /*font-size: small;*/
 }
 
 .nivel3 {
-	/*border: 1px solid black;
+  /*border: 1px solid black;
 	border-radius: 5px;*/
-	line-height: 1.5em;
-	max-height: 1.5em;
-	width: 260px;
-	margin-left: 20px;
-	/*margin-bottom: 5px;*/
-	overflow: hidden;
-	text-overflow: clip;
-	text-align: left;
-	margin-right: -1em;
-	padding-right: 1em;
-	position: relative;
-	/*background-color: #7a6dc4;*/
-	/*font-size: small;*/
+  line-height: 1.5em;
+  max-height: 1.5em;
+  width: 260px;
+  margin-left: 20px;
+  /*margin-bottom: 5px;*/
+  overflow: hidden;
+  text-overflow: clip;
+  text-align: left;
+  margin-right: -1em;
+  padding-right: 1em;
+  position: relative;
+  /*background-color: #7a6dc4;*/
+  /*font-size: small;*/
 }
 
 .nivel4 {
-	/*border: 1px solid black;
+  /*border: 1px solid black;
 	border-radius: 5px;*/
-	line-height: 1.5em;
-	max-height: 1.5em;
-	width: 240px;
-	margin-left: 20px;
-	/*margin-bottom: 5px;*/
-	overflow: hidden;
-	text-overflow: clip;
-	text-align: left;
-	margin-right: -1em;
-	padding-right: 1em;
-	position: relative;
-	/*background-color: #6dc48e;*/
-	/*font-size: small;*/
+  line-height: 1.5em;
+  max-height: 1.5em;
+  width: 240px;
+  margin-left: 20px;
+  /*margin-bottom: 5px;*/
+  overflow: hidden;
+  text-overflow: clip;
+  text-align: left;
+  margin-right: -1em;
+  padding-right: 1em;
+  position: relative;
+  /*background-color: #6dc48e;*/
+  /*font-size: small;*/
 }
 
 .nivel5 {
-	/*border: 1px solid black;
+  /*border: 1px solid black;
 	border-radius: 5px;*/
-	line-height: 1.5em;
-	max-height: 1.5em;
-	width: 220px;
-	margin-left: 20px;
-	/*margin-bottom: 5px;*/
-	overflow: hidden;
-	text-overflow: clip;
-	text-align: left;
-	margin-right: -1em;
-	padding-right: 1em;
-	position: relative;
-	/*background-color: #b4c46d;*/
-	/*font-size: small;*/
+  line-height: 1.5em;
+  max-height: 1.5em;
+  width: 220px;
+  margin-left: 20px;
+  /*margin-bottom: 5px;*/
+  overflow: hidden;
+  text-overflow: clip;
+  text-align: left;
+  margin-right: -1em;
+  padding-right: 1em;
+  position: relative;
+  /*background-color: #b4c46d;*/
+  /*font-size: small;*/
 }
 
 .nivel6 {
-	/*border: 1px solid black;
+  /*border: 1px solid black;
 	border-radius: 5px;*/
-	line-height: 1.5em;
-	max-height: 1.5em;
-	width: 200px;
-	margin-left: 20px;
-	/*margin-bottom: 5px;*/
-	overflow: hidden;
-	text-overflow: clip;
-	text-align: left;
-	margin-right: -1em;
-	padding-right: 1em;
-	position: relative;
-	/*background-color: #b4c46d;*/
-	/*font-size: small;*/
+  line-height: 1.5em;
+  max-height: 1.5em;
+  width: 200px;
+  margin-left: 20px;
+  /*margin-bottom: 5px;*/
+  overflow: hidden;
+  text-overflow: clip;
+  text-align: left;
+  margin-right: -1em;
+  padding-right: 1em;
+  position: relative;
+  /*background-color: #b4c46d;*/
+  /*font-size: small;*/
 }
 
 .mostrar {
-	/*border: 1px solid black;
+  /*border: 1px solid black;
 	border-radius: 5px;*/
-	line-height: 1.5em;
-	max-height: 36em; /*30 lineas*/
-	margin-left: 20px;
-	/*box-shadow: black 3px 3px 4px;*/
-	color: black; /* white;*/
-	overflow: hidden;
-	text-overflow: ellipsis;
+  line-height: 1.5em;
+  max-height: 36em; /*30 lineas*/
+  margin-left: 20px;
+  /*box-shadow: black 3px 3px 4px;*/
+  color: black; /* white;*/
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 b {
-	color: black;
-	/*font-size: 14px;*/
+  color: black;
+  /*font-size: 14px;*/
 }
 
 /*.mostrar b {
@@ -128,31 +128,31 @@ b {
 }*/
 
 .botonmas {
-	font-weight: bold;
-	/*font-size: small;*/
-	border: none;
-	background: none;
-	width: 1.5em;
-	height: 1.5em;
-	outline: none;
-	background-color: lightgray;
-	border-radius: 5px;
-	padding-left: 0.4em;
-	padding-top: 0em;
-	cursor: pointer;
-	/*border: solid 1px black;
+  font-weight: bold;
+  /*font-size: small;*/
+  border: none;
+  background: none;
+  width: 1.5em;
+  height: 1.5em;
+  outline: none;
+  background-color: lightgray;
+  border-radius: 5px;
+  padding-left: 0.4em;
+  padding-top: 0em;
+  cursor: pointer;
+  /*border: solid 1px black;
 	text-align: center;
 	margin-bottom: 5px;*/
 }
 
 .Dropdown {
-	border: 1px solid black;
-	border-radius: 5px;
-	padding: 4px;
-	outline: none;
-	text-align: left;
-	font-size: 14px;
-	font-weight: normal;
-	background: #2c3e50;
-	color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 4px;
+  outline: none;
+  text-align: left;
+  font-size: 14px;
+  font-weight: normal;
+  background: #2c3e50;
+  color: white;
 }
