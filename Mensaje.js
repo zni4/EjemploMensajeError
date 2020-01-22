@@ -31,7 +31,7 @@ function MostrarMensaje(textoMensaje) {
   divModal = divNodo;
 
   divModal.innerHTML +=
-    '<div class="MensajeAviso"><div class="cabecera"><button onclick="OcultarMensaje();">X</button><h4>MENSAJE</h4></div><div class="body"><span class="imagen_aviso"></span><p>' +
+    '<div class="MensajeAviso"><div class="cabecera"><button onclick="OcultarMensaje();">&times;</button><h4>MENSAJE</h4></div><div class="body"><span class="imagen_aviso"></span><p>' +
     textoMensaje +
     '</p></div><div class="footer"><button onclick="OcultarMensaje();" type="button">Aceptar</button></div></div>';
 }
